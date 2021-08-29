@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+        "path": "../project1"
+      },
+      {
+        "path": "../project2"
+      }
+  ],
+  "settings": {
+    "terminal.integrated.shellArgs.linux": [ "--init-file", "${workspaceFolder}/init.sh" ],
+    "terminal.integrated.env.linux": {
+        "STARTUP_DIR": "project2"
+    }
+  }
+}

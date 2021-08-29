@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+        "path": "../project1"
+      },
+      {
+        "path": "../project2"
+      }
+  ],
+  "settings": {
+    "terminal.integrated.profiles.linux": {
+        "custom-bash": {
+            "path": "bash",
+            "icon": "terminal-bash",
+            "args": [ "--init-file", "${workspaceFolder}/init.sh" ],
+            "overrideName": true,
+            "env": {
+                "STARTUP_DIR": "project2"
+            }
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "custom-bash"
+  }
+}
